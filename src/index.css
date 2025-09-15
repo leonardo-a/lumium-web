@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --color-primary: #CBD83B;
+  --color-secondary: #A88AED;
+  --color-background: #FFFEEC;
+  --color-foreground: #0D0E0E;
+  --color-danger: #E82D04;
+  --color-warn: #EEC142;
+}
+
+@theme {
+  --font-sans: "Poppins", "sans-serif";
+  --font-title: "Anton", "sans-serif";
+}
+
+@layer utilities {
+  .backdrop-blur-md {
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
