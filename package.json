@@ -7,7 +7,10 @@
     "dev": "vite --host",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "docker": "docker compose up -d",
+    "docker:build": "docker compose up -d --force-recreate --build",
+    "docker:down": "docker compose down"
   },
   "dependencies": {
     "@phosphor-icons/react": "^2.1.10",
