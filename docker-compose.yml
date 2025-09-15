@@ -1,0 +1,6 @@
+services:
+  web:
+    container_name: lumium-web
+    build: .
+    ports:
+      - 4202:3000
