@@ -16,13 +16,13 @@ export function Hero() {
             semana.
           </h2>
         </div>
-        <div className="">
+        <div className="w-full sm:w-auto sm:h-[26rem]">
           <img
             src={HeroImage}
             alt="hero"
-            className="hidden sm:block w-full sm:w-auto md:h-[26rem]"
+            className="hidden sm:block sm:h-full"
           />
-          <img src={HeroMobileImage} alt="hero" className="w-full sm:hidden" />
+          <img src={HeroMobileImage} alt="hero" className="md:hidden" />
         </div>
       </div>
     </main>
