@@ -7,7 +7,7 @@ export function Instalation() {
     <section className="w-screen bg-background p-4">
       <div className="w-full rounded-2xl bg-secondary p-4 gap-4 flex flex-col md:flex-row items-center justify-between">
         <div className="flex flex-col gap-4 md:gap-8 items-center">
-          <h1 className="font-title text-5xl text-center font-extrabold">
+          <h1 className="font-title text-4xl lg:text-5xl text-center font-extrabold">
             Baixe o aplicativo e comece a cuidar do seus hobbies hoje mesmo!
           </h1>
           <div className="flex gap-4">

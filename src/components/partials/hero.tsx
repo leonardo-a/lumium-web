@@ -3,26 +3,30 @@ import HeroMobileImage from '../../assets/hero-mobile.png'
 
 export function Hero() {
   return (
-    <main className="h-dvh bg-background p-2 pt-[4.5rem] sm:pt-2 transition-all">
-      <div className="size-full border-[1.5px] border-foreground overflow-hidden rounded-2xl flex flex-col items-center justify-end">
-        <div className="shrink-0 text-center px-4 sm:max-w-xl mb-4 mx-auto space-y-2">
-          <h1 className="text-5xl font-title sm:font-bold">
+    <main className='h-dvh bg-background p-2 pt-[4.5rem] sm:pt-20'>
+      <div className='size-full border border-foreground rounded-2xl overflow-hidden'>
+        <div className='h-[40%] sm:h-[35%] w-full px-4 max-w-xl flex flex-col gap-2 text-center mx-auto justify-center'>
+          <h1 className="text-4xl sm:text-5xl font-title sm:font-bold">
             O <span className="text-primary">controle</span> para os{' '}
             <span className="text-primary">hobbies</span> que{' '}
             <span className="text-secondary">você ama</span>!
           </h1>
-          <h2 className="text-md sm:text-lg leading-tight font-extralight px-2">
+          <h2 className="text-sm sm:text-lg leading-tight font-extralight px-2">
             Cadastre seus hobbies, alcance suas metas e acompanhe sua evolução semana após
             semana.
           </h2>
         </div>
-        <div className="max-w-full h-80 sm:w-auto sm:h-96">
+        <div className='h-[60%] sm:h-[65%] flex items-end overflow-hidden'>
           <img
             src={HeroImage}
             alt="hero"
-            className="hidden sm:block sm:h-full"
+            className="hidden sm:block h-full object-cover mx-auto"
           />
-          <img src={HeroMobileImage} alt="hero" className="h-full md:hidden" />
+          <img
+            src={HeroMobileImage}
+            alt="hero"
+            className="h-full mx-auto sm:hidden object-cover"
+          />
         </div>
       </div>
     </main>
