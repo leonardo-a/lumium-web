@@ -7,7 +7,7 @@ import { Footer } from '../components/partials/footer'
 
 export function Home() {
   return (
-    <div className="flex flex-col w-screen overflow-hidden">
+    <div className="flex flex-col max-w-screen overflow-hidden">
       <Header />
       <Hero />
       <Features />

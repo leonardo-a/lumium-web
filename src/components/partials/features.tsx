@@ -8,7 +8,7 @@ import { FeaturesCard } from "../ui/feature-card"
 
 export function Features() {
   return (
-    <section className='py-4 w-screen bg-background px-2'>
+    <section className='py-4 w-full bg-background px-2'>
       <div className="mb-8">
         <h1 className='text-3xl sm:text-4xl font-title text-center mb-2'>Por que usar o Lumium?</h1>
         <p className='text-center max-w-2xl mx-auto font-extralight text-sm sm:text-base leading-tight'>
