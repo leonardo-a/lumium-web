@@ -1,9 +1,8 @@
 import { Features } from '../components/partials/features'
+import { Footer } from '../components/partials/footer'
 import { Header } from '../components/partials/header'
 import { Hero } from '../components/partials/hero'
 import { Instalation } from '../components/partials/instalation'
-
-import { Footer } from '../components/partials/footer'
 
 export function Home() {
   return (
