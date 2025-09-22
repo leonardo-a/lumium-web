@@ -4,9 +4,9 @@ import HeroMobileImage from '../../assets/hero-mobile.png'
 export function Hero() {
   return (
     <main className='h-dvh bg-background p-2 pt-[4.5rem] sm:pt-20'>
-      <div className='size-full border border-foreground rounded-2xl overflow-hidden'>
+      <div className='size-full border border-foreground rounded-2xl flex flex-col justify-between sm:pt-6 overflow-hidden'>
         <div className='h-[40%] sm:h-[35%] w-full px-4 max-w-xl flex flex-col gap-2 text-center mx-auto justify-center'>
-          <h1 className="text-4xl sm:text-5xl font-title sm:font-bold">
+          <h1 className="text-4xl sm:text-5xl leading-tight font-title sm:font-bold">
             O <span className="text-primary">controle</span> para os{' '}
             <span className="text-primary">hobbies</span> que{' '}
             <span className="text-secondary">você ama</span>!
@@ -16,7 +16,7 @@ export function Hero() {
             semana.
           </h2>
         </div>
-        <div className='h-[60%] sm:h-[65%] flex items-end overflow-hidden'>
+        <div className='h-[60%] flex items-end overflow-hidden'>
           <img
             src={HeroImage}
             alt="hero"
