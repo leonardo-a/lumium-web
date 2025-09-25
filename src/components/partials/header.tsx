@@ -18,9 +18,9 @@ export function Header() {
         <a href="/privacidade" className='text-xs text-background font-extralight hover:underline'>
           Privacidade
         </a>
-        {/* <a href="/suporte" className='text-xs text-background font-extralight hover:underline'>
-          Ajuda
-        </a> */}
+        <a href="/suporte" className='text-xs text-background font-extralight hover:underline'>
+          Suporte
+        </a>
       </div>
     </div>
   )

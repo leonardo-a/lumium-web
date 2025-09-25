@@ -11,9 +11,9 @@ export function Footer() {
           <a href="/privacidade" className='hover:underline'>
             Privacidade
           </a>
-          {/* <a href="/suporte" className='hover:underline'>
-            Ajuda
-          </a> */}
+          <a href="/suporte" className='hover:underline'>
+            Suporte
+          </a>
         </nav>
       </div>
     </footer>
