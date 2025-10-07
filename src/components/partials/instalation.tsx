@@ -17,7 +17,7 @@ export function Instalation() {
               <img
                 src={AppStoreDownloadPTBR}
                 alt="Download on the App Store"
-                className="w-36 h-12 align-middle object-contain"
+                className="w-36 lg:w-52 h-12 lg:h-28 align-middle object-contain"
               />
             </a>
           </div>
