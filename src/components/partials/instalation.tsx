@@ -1,5 +1,4 @@
 import AppStoreDownloadPTBR from '../../assets/app-store-dowload-ptbr.svg'
-import PlayStoreIcon from '../../assets/google-play.svg'
 import ScreensImage from '../../assets/screens.png'
 
 export function Instalation() {
@@ -19,7 +18,6 @@ export function Instalation() {
                 src={AppStoreDownloadPTBR}
                 alt="Download on the App Store"
                 className="w-36 h-12 align-middle object-contain"
-                // style="width: 246px; height: 82px; vertical-align: middle; object-fit: contain;"
               />
             </a>
           </div>
