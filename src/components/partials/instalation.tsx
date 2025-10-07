@@ -1,4 +1,4 @@
-import AppleIcon from '../../assets/apple.svg'
+import AppStoreDownloadPTBR from '../../assets/app-store-dowload-ptbr.svg'
 import PlayStoreIcon from '../../assets/google-play.svg'
 import ScreensImage from '../../assets/screens.png'
 
@@ -11,30 +11,17 @@ export function Instalation() {
             Baixe o aplicativo e comece a cuidar do seus hobbies hoje mesmo!
           </h1>
           <div className="flex gap-4">
-            <button
-              type="button"
-              disabled
-              className="h-12 w-36 text-left bg-foreground opacity-60 text-background rounded-2xl flex items-center px-2 gap-1"
+            <a
+              className="inline-block"
+              href="https://apps.apple.com/br/app/lumium/id6751991264?itscg=30200&itsct=apps_box_badge&mttnsubad=6751991264"
             >
-              <img src={AppleIcon} alt="app store" className="h-6" />
-              <div className="flex flex-col leading-none">
-                <span className="text-[10px]">em breve na</span>
-                {/* <span className='text-[10px]'>Baixar na</span> */}
-                <span>App Store</span>
-              </div>
-            </button>
-            <button
-              type="button"
-              disabled
-              className="h-12 w-36 text-left bg-foreground opacity-60 text-background rounded-2xl flex items-center px-2 gap-1"
-            >
-              <img src={PlayStoreIcon} alt="google play" className="h-6" />
-              <div className="flex flex-col leading-none">
-                <span className="text-[10px]">em breve no</span>
-                {/* <span className='text-[10px] uppercase'>Disponível no</span> */}
-                <span>Google Play</span>
-              </div>
-            </button>
+              <img
+                src={AppStoreDownloadPTBR}
+                alt="Download on the App Store"
+                className="w-36 h-12 align-middle object-contain"
+                // style="width: 246px; height: 82px; vertical-align: middle; object-fit: contain;"
+              />
+            </a>
           </div>
         </div>
         <img src={ScreensImage} alt="screens" className="h-72" />
