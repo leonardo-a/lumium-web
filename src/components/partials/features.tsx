@@ -3,7 +3,6 @@ import {
   ChartBarIcon,
   ClockCounterClockwiseIcon,
   DeviceMobileCameraIcon,
-  ShareNetworkIcon,
   UserCircleDashedIcon,
   WifiSlashIcon,
 } from '@phosphor-icons/react'
