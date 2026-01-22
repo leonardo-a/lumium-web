@@ -24,7 +24,7 @@ export function Instalation() {
         </div>
         <img
           src={ScreensImage}
-          alt="screens"
+          alt="Lumium App iPhone Mockups"
           className="h-72 sm:h-auto sm:w-[45%] md:w-2/5 object-contain"
         />
       </div>

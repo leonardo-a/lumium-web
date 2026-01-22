@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lumium.hollowstudio.com.br/sitemap.xml

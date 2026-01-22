@@ -10,7 +10,7 @@ export function Hero() {
           <div className="size-full relative rounded-4xl overflow-hidden">
             <img
               src="/drawing.jpg"
-              alt="hobby-banner"
+              alt="Practicing drawing hobby"
               className="absolute size-full object-cover"
             />
             <div className="size-full flex items-center justify-center p-4">
@@ -39,12 +39,12 @@ export function Hero() {
         <div className="w-full h-[45%] lg:w-2/5 lg:h-full flex items-center justify-center px-4 lg:pt-24 lg:px-4 lg:pb-4">
           <img
             src={MockupsImage}
-            alt="Mockups"
+            alt="Lumium App iPhone Mockups"
             className="hidden lg:block h-auto w-full"
           />
           <img
             src={MobileMockupsImage}
-            alt="Mockups"
+            alt="Lumium App iPhone Mockups"
             className="lg:hidden h-full w-auto"
           />
         </div>
