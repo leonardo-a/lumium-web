@@ -1,12 +1,12 @@
-import AppStoreDownloadPTBR from '../../assets/app-store-dowload-ptbr.svg'
-import ScreensImage from '../../assets/screens.png'
+import AppStoreDownloadPTBR from '../../assets/app-store-download-ptbr.svg'
+import ScreensImage from '../../assets/mockups-2.png'
 
 export function Instalation() {
   return (
     <section className="w-full bg-background p-4">
-      <div className="w-full rounded-2xl bg-secondary p-4 gap-4 flex flex-col md:flex-row items-center justify-between">
-        <div className="flex flex-col gap-4 md:gap-8 items-center">
-          <h1 className="font-title text-4xl lg:text-5xl text-center font-extrabold">
+      <div className="w-full rounded-2xl bg-secondary p-4 gap-4 flex flex-col lg:flex-row items-center justify-between">
+        <div className="w-full lg:w-3/5 flex flex-col gap-4 md:gap-8 items-center">
+          <h1 className="text-2xl lg:text-5xl text-center font-light leading-relaxed text-background">
             Baixe o aplicativo e comece a cuidar do seus hobbies hoje mesmo!
           </h1>
           <div className="flex gap-4">
@@ -22,7 +22,11 @@ export function Instalation() {
             </a>
           </div>
         </div>
-        <img src={ScreensImage} alt="screens" className="h-72" />
+        <img
+          src={ScreensImage}
+          alt="screens"
+          className="h-72 sm:h-auto sm:w-[45%] md:w-2/5 object-contain"
+        />
       </div>
     </section>
   )

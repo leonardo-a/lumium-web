@@ -28,7 +28,7 @@ export function Support() {
   return (
     <div className="flex flex-col min-h-dvh max-w-screen overflow-hidden">
       <Header />
-      <main className="my-20 flex-1 px-4">
+      <main className="my-28 flex-1 px-4">
         <article className="prose lg:prose-lg mx-auto">
           <ReactMarkdown>{content}</ReactMarkdown>
         </article>

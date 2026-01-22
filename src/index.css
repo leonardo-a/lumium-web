@@ -2,10 +2,10 @@
 @plugin "@tailwindcss/typography";
 
 @theme {
-  --color-primary: #CBD83B;
-  --color-secondary: #A88AED;
-  --color-background: #FFFEEC;
-  --color-foreground: #0D0E0E;
+  --color-primary: #ACDB16;
+  --color-secondary: #7A4CFF;
+  --color-background: #F8F3F0;
+  --color-foreground: #07030F;
   --color-danger: #E82D04;
   --color-warn: #EEC142;
 }
@@ -20,8 +20,16 @@
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
   }
+
+  .scrollbar-hidden {
+    @apply [scrollbar-width:none] [&::-webkit-scrollbar]:hidden;
+  }
 }
 
 html {
   scroll-behavior: smooth;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
 }

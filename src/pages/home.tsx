@@ -6,7 +6,7 @@ import { Instalation } from '../components/partials/instalation'
 
 export function Home() {
   return (
-    <div className="flex flex-col max-w-screen overflow-hidden">
+    <div className="flex flex-col">
       <Header />
       <Hero />
       <Features />

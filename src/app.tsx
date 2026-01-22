@@ -7,7 +7,7 @@ import { Terms } from './pages/terms'
 
 export function App() {
   return (
-    <div className="flex flex-col min-h-dvh bg-background">
+    <div className="min-h-dvh max-w-screen overflow-x-hidden bg-background">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/privacidade" element={<Privacy />} />
