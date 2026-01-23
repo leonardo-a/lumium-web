@@ -12,16 +12,16 @@ export function Features() {
   return (
     <section className="py-16 space-y-16 w-full bg-background px-4">
       <div className="max-w-4xl mx-auto space-y-6">
-        <h1 className="text-3xl sm:text-4xl font-bold text-center">
+        <h2 className="text-3xl sm:text-4xl font-bold text-center">
           Por que usar o{' '}
           <span className="underline decoration-primary underline-offset-6 decoration-[6px] text-secondary">
             Lumium
           </span>
           ?
-        </h1>
-        <h2 className="text-xl sm:text-2xl font-light italic text-center opacity-60">
-          Feito para quem ama seus hobbies, mas luta para manter o ritmo.
         </h2>
+        <p className="text-xl sm:text-2xl font-light italic text-center opacity-60">
+          Feito para quem ama seus hobbies, mas luta para manter o ritmo.
+        </p>
         <p className="text-center font-regular md:font-light text-lg sm:text-xl leading-relaxed">
           O Lumium foi criado para ser o refúgio das suas paixões em meio ao caos do dia a
           dia. Um app leve, simples e intuitivo, focado em te ajudar a acompanhar seu

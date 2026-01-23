@@ -32,17 +32,17 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <meta charSet="UTF-8" />
         <link rel="icon" type="image/svg+xml" href="/icon.svg" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Lumium</title>
+        <title>Lumium: Acompanhe seus Hobbies</title>
         <meta
           name="description"
-          content="O refúgio para seus hobbies. Planeje, pratique e visualize sua evolução com simplicidade e fidelidade."
+          content="Feito para quem ama seus hobbies, mas luta para manter o ritmo. Com o Lumium você registra seus hobbies favoritos e acompanha o seu progresso semanal com métricas, tudo isso com uma interface simples, limpa e intuitiva. Baixe agora mesmo e aproveite!"
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://lumium.hollowstudio.com.br/" />
         <meta property="og:title" content="Lumium: Acompanhe seus Hobbies" />
         <meta
           property="og:description"
-          content="Um app leve, simples e intuitivo, focado em te ajudar a acompanhar seu
+          content="Lumium é um app leve, simples e intuitivo, focado em te ajudar a acompanhar seu
           progresso nos seus hobbies favoritos."
         />
         <meta
@@ -51,6 +51,21 @@ export function Layout({ children }: { children: React.ReactNode }) {
         />
         <Meta />
         <Links />
+        {/* Google Analytics Script */}
+        <script async src={`https://www.googletagmanager.com/gtag/js?id=G-GH9Q8Q8438`} />
+        <script
+          // biome-ignore lint/security/noDangerouslySetInnerHtml: Google Analytics v4 implementation
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-GH9Q8Q8438', {
+                page_path: window.location.pathname,
+              });
+            `,
+          }}
+        />
       </head>
       <body>
         {children}

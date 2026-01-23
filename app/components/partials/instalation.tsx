@@ -6,9 +6,9 @@ export function Instalation() {
     <section className="w-full bg-background p-4">
       <div className="w-full rounded-2xl bg-secondary p-4 gap-4 flex flex-col lg:flex-row items-center justify-between">
         <div className="w-full lg:w-3/5 flex flex-col gap-4 md:gap-8 items-center">
-          <h1 className="text-2xl lg:text-5xl text-center font-light leading-relaxed text-background">
+          <h2 className="text-2xl lg:text-5xl text-center font-light leading-relaxed text-background">
             Baixe o aplicativo e comece a cuidar do seus hobbies hoje mesmo!
-          </h1>
+          </h2>
           <div className="flex gap-4">
             <a
               className="inline-block"

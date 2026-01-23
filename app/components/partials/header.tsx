@@ -7,9 +7,9 @@ export function Header() {
       <a href="/" className="flex items-center gap-3">
         <img src={LogoImage} alt="logo" className="h-9 w-auto" />
 
-        <h1 className="text-background font-extralight text-lg hidden sm:inline">
+        <span className="text-background font-extralight text-lg hidden sm:inline">
           Lumium
-        </h1>
+        </span>
       </a>
       <div className="flex items-center gap-2 lg:gap-4">
         <a
