@@ -52,7 +52,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Meta />
         <Links />
         {/* Google Analytics Script */}
-        <script async src={`https://www.googletagmanager.com/gtag/js?id=G-GH9Q8Q8438`} />
+        <script async src={`https://www.googletagmanager.com/gtag/js?id=G-QRX7SK4Z43`} />
         <script
           // biome-ignore lint/security/noDangerouslySetInnerHtml: Google Analytics v4 implementation
           dangerouslySetInnerHTML={{
@@ -60,7 +60,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', 'G-GH9Q8Q8438', {
+              gtag('config', 'G-QRX7SK4Z43', {
                 page_path: window.location.pathname,
                 cookie_flags: 'SameSite=None;Secure',
                 cookie_domain: 'lumium.hollowstudio.com.br',
