@@ -62,6 +62,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
               gtag('js', new Date());
               gtag('config', 'G-GH9Q8Q8438', {
                 page_path: window.location.pathname,
+                cookie_flags: 'SameSite=None;Secure',
+                cookie_domain: 'lumium.hollowstudio.com.br',
               });
             `,
           }}
