@@ -1,20 +1,24 @@
 {
   "name": "lumium-web",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.1.5",
   "type": "module",
   "scripts": {
-    "dev": "vite --host",
-    "build": "tsc -b && vite build",
+    "dev": "react-router dev --host",
+    "build": "tsc -b && react-router build",
+    "start": "react-router-serve ./build/server/index.js",
+    "typecheck": "react-router typegen && tsc",
     "lint": "eslint .",
-    "preview": "vite preview",
     "docker": "docker compose up -d",
-    "docker:build": "docker compose up -d --force-recreate --build",
+    "docker:build": "docker compose up -d --force-recreate --build --remove-orphans",
     "docker:down": "docker compose down"
   },
   "dependencies": {
     "@phosphor-icons/react": "^2.1.10",
+    "@react-router/node": "^7.12.0",
+    "@react-router/serve": "^7.12.0",
     "@tailwindcss/vite": "^4.1.13",
+    "isbot": "^5",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-markdown": "^10.1.0",
@@ -23,12 +27,14 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^2.2.3",
+    "@react-router/dev": "^7.12.0",
     "@tailwindcss/typography": "^0.5.16",
     "@types/react": "^19.1.10",
     "@types/react-dom": "^19.1.7",
     "@vitejs/plugin-react": "^5.0.0",
     "globals": "^16.3.0",
     "typescript": "~5.8.3",
-    "vite": "^7.1.2"
+    "vite": "^7.3.1",
+    "vite-tsconfig-paths": "^6.0.4"
   }
 }

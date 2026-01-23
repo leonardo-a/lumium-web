@@ -1,6 +1,6 @@
-import AppStoreDownloadPTBR from '../../assets/app-store-download-ptbr.svg'
-import MobileMockupsImage from '../../assets/mobile-mockups.png'
-import MockupsImage from '../../assets/mockups.png'
+import AppStoreDownloadPTBR from '@/assets/app-store-download-ptbr.svg'
+import MobileMockupsImage from '@/assets/mobile-mockups.png'
+import MockupsImage from '@/assets/mockups.png'
 
 export function Hero() {
   return (

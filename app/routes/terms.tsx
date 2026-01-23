@@ -1,7 +1,7 @@
 import ReactMarkdown from 'react-markdown'
 
-import { Footer } from '../components/partials/footer'
-import { Header } from '../components/partials/header'
+import { Footer } from '@/components/partials/footer'
+import { Header } from '@/components/partials/header'
 
 const content = `
 # Termos de Uso
@@ -47,7 +47,7 @@ Se você tiver dúvidas sobre os Termos de Uso ou sobre o Aplicativo, entre em c
 **[suporte@hollowstudio.com.br](mailto:suporte@hollowstudio.com.br)**
 `
 
-export function Terms() {
+export default function TermsRoute() {
   return (
     <div className="flex flex-col min-h-dvh max-w-screen overflow-hidden">
       <Header />

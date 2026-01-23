@@ -1,7 +1,7 @@
 import ReactMarkdown from 'react-markdown'
 
-import { Footer } from '../components/partials/footer'
-import { Header } from '../components/partials/header'
+import { Footer } from '@/components/partials/footer'
+import { Header } from '@/components/partials/header'
 
 const content = `
 # Política de Privacidade
@@ -72,7 +72,7 @@ Se você tiver dúvidas ou preocupações em relação à privacidade no uso do 
 **[suporte@hollowstudio.com.br](mailto:suporte@hollowstudio.com.br)**
 `
 
-export function Privacy() {
+export default function PrivacyRoute() {
   return (
     <div className="flex flex-col min-h-dvh max-w-screen overflow-hidden">
       <Header />

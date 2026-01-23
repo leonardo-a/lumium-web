@@ -1,5 +1,5 @@
-import AppStoreDownloadPTBR from '../../assets/app-store-download-ptbr.svg'
-import ScreensImage from '../../assets/mockups-2.png'
+import AppStoreDownloadPTBR from '@/assets/app-store-download-ptbr.svg'
+import ScreensImage from '@/assets/mockups-2.png'
 
 export function Instalation() {
   return (

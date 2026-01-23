@@ -1,7 +1,7 @@
 import ReactMarkdown from 'react-markdown'
 
-import { Footer } from '../components/partials/footer'
-import { Header } from '../components/partials/header'
+import { Footer } from '@/components/partials/footer'
+import { Header } from '@/components/partials/header'
 
 const content = `
 # Suporte ao Cliente
@@ -24,7 +24,7 @@ Estamos aqui para ajudar! Se você tiver dúvidas, sugestões ou encontrar algum
 Nosso objetivo é garantir que você tenha a melhor experiência possível com o Lumium. Não hesite em nos procurar!
 `
 
-export function Support() {
+export default function SupportRoute() {
   return (
     <div className="flex flex-col min-h-dvh max-w-screen overflow-hidden">
       <Header />

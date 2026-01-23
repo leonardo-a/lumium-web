@@ -1,5 +1,5 @@
-import AppStoreDownloadPTBR from '../../assets/app-store-download-ptbr.svg'
-import LogoImage from '../../assets/logo-primary.png'
+import AppStoreDownloadPTBR from '@/assets/app-store-download-ptbr.svg'
+import LogoImage from '@/assets/logo-primary.png'
 
 export function Header() {
   return (
