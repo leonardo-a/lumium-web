@@ -30,7 +30,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
     <html lang="pt-BR">
       <head>
         <meta charSet="UTF-8" />
-        <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Lumium: Acompanhe seus Hobbies</title>
         <meta
