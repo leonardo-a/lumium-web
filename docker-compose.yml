@@ -4,4 +4,4 @@ services:
     build: .
     image: lumium-web
     ports:
-      - 4202:3000
+      - #{PORT}:3000
