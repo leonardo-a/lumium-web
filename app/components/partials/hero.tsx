@@ -1,6 +1,6 @@
-import AppStoreDownloadPTBR from '@/assets/app-store-download-ptbr.svg'
-import MobileMockupsImage from '@/assets/mobile-mockups.png'
-import MockupsImage from '@/assets/mockups.png'
+import AppStoreDownloadPTBR from '@/assets/images/app-store-download-ptbr.svg'
+import MobileMockupsImage from '@/assets/images/mobile-mockups.webp'
+import MockupsImage from '@/assets/images/mockups.webp'
 
 export function Hero() {
   return (
@@ -9,7 +9,7 @@ export function Hero() {
         <div className="h-[55%] w-full lg:h-full lg:w-3/5 pt-20 lg:pt-24 px-2 pb-2 lg:px-4 lg:pb-4">
           <div className="size-full relative rounded-4xl overflow-hidden">
             <img
-              src="/drawing.jpg"
+              src="/drawing.webp"
               alt="Practicing drawing hobby"
               className="absolute size-full object-cover"
             />

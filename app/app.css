@@ -11,7 +11,9 @@
 }
 
 @theme {
-  --font-sans: "Poppins", "sans-serif";
+  --font-sans: "Sora-Regular", "sans-serif";
+  --font-bold: "Sora-Bold", "sans-serif";
+  --font-extralight: "Sora-ExtraLight", "sans-serif";
   --font-title: "Anton", "sans-serif";
 }
 
