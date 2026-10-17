@@ -10,7 +10,7 @@ export function Hero() {
           <div className="size-full relative rounded-4xl overflow-hidden">
             <img
               src="/drawing.webp"
-              alt="Practicing drawing hobby"
+              alt="Practicing drawing"
               className="absolute size-full object-cover"
             />
             <div className="size-full flex items-center justify-center p-4">
