@@ -125,7 +125,7 @@ Ao utilizar o Lumium, você concorda com os termos descritos nesta Política de 
 
 ---
 
-## Encarregado de Dados (DPO)
+## Contato
 
 Nos termos do Art. 41 da LGPD, o Provedor de Serviço indica como canal de comunicação para assuntos relacionados à proteção de dados pessoais:
 
